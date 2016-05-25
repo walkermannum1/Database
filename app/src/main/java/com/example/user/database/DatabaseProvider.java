@@ -136,13 +136,13 @@ public class DatabaseProvider extends ContentProvider {
     public String getType(Uri uri) {
         switch (uriMatcher.match(uri)) {
             case BOOK_DIR:
-                return "vnd.android.cursor.dir/vnd.com.example.database.provider.book";
+                return "vnd.android.cursor.dir/vnd.com.example.user.database.provider.book";
             case BOOK_ITEM:
-                return "vnd.android.cursor.dor/vnd.com.example.database.provider.book";
+                return "vnd.android.cursor.dor/vnd.com.example.user.database.provider.book";
             case CATEGORY_DIR:
-                return "vnd.android.cursor.dir/vnd.com.example.database.provider.category";
+                return "vnd.android.cursor.dir/vnd.com.example.user.database.provider.category";
             case CATEGORY_ITEM:
-                return "vnd.android.cursor.dor/vnd.com.example.database.provider.category";
+                return "vnd.android.cursor.dor/vnd.com.example.user.database.provider.category";
         }
         return null;
     }

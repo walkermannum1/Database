@@ -10,7 +10,8 @@
         android:theme="@style/AppTheme">
         <provider
             android:name="com.example.user.database.DatabaseProvider"
-            android:authorities="com.example.database.provider">
+            android:authorities="com.example.user.database.provider"
+            android:exported="true">
         </provider>
         <activity
             android:name=".MainActivity"
