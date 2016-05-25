@@ -138,11 +138,11 @@ public class DatabaseProvider extends ContentProvider {
             case BOOK_DIR:
                 return "vnd.android.cursor.dir/vnd.com.example.user.database.provider.book";
             case BOOK_ITEM:
-                return "vnd.android.cursor.dor/vnd.com.example.user.database.provider.book";
+                return "vnd.android.cursor.item/vnd.com.example.user.database.provider.book";
             case CATEGORY_DIR:
                 return "vnd.android.cursor.dir/vnd.com.example.user.database.provider.category";
             case CATEGORY_ITEM:
-                return "vnd.android.cursor.dor/vnd.com.example.user.database.provider.category";
+                return "vnd.android.cursor.item/vnd.com.example.user.database.provider.category";
         }
         return null;
     }
